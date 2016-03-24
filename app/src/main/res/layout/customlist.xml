@@ -12,8 +12,9 @@
         android:gravity="end"
         android:textSize="70dp"
         android:id="@+id/textxx"
-        android:textColor="#fff"
+        android:textColor="@color/textColorPrimary"
         android:layout_marginRight="2dp"
+        android:textStyle="bold"
         android:text="15"/>
 
     <TextView
@@ -21,9 +22,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Sporting Delta"
-        android:textColor="#fff"
+        android:textColor="@color/textColorPrimary"
         android:id="@+id/textView"
         android:layout_marginLeft="10dp"
+        android:textStyle="bold"
         android:layout_marginTop="5dp"
         android:layout_alignTop="@+id/textxx"
         android:layout_alignParentLeft="true"
@@ -34,7 +36,7 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Webbrief"
-        android:textColor="#fff"
+        android:textColor="@color/textColorPrimary"
         android:layout_marginRight="10dp"
         android:id="@+id/textView2"
         android:layout_centerVertical="true"

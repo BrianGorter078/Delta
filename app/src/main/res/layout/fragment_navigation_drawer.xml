@@ -16,7 +16,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="150dp"
-            android:src="@drawable/delta"
+            android:src="@drawable/deltasslider"
             android:scaleType="fitCenter"
             android:layout_centerInParent="true" />
 
