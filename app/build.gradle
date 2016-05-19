@@ -23,7 +23,7 @@ android {
         applicationId "nl.sportingdelta.sportingdelta"
         minSdkVersion 14
         targetSdkVersion 21
-        versionCode 4
+        versionCode 10
         versionName "1"
 
         multiDexEnabled true
