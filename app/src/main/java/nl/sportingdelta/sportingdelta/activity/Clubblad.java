@@ -50,27 +50,18 @@ public class Clubblad extends Fragment {
 
         AssetManager assetManager = getActivity().getAssets();
         try {
-
-
             String[] paths = assetManager.list("");
-
             for (int i = 0; i < paths.length; i++) {
-
                 if (paths[i].contains(".pdf")) {
-
                     if(paths[i].contains("zaalboek"))
                     {
-
                     }
                     else {
-
-
                         paths[i] = paths[i].replace(".pdf", "");
                         paths[i] = paths[i].replace("wb", "");
                         clubbladen.add(paths[i]);
                     }
                 }
-
             }
 
             final List<String> listview = Lists.reverse(clubbladen);
